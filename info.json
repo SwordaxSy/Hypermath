@@ -1,0 +1,139 @@
+{
+    "project_info": {
+        "project_name": "Hypermath",
+        "project_initial_name": "S-Math",
+        "project_description": "Fun math game for kids",
+        "project_technology": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Fontawesome",
+            "Google Fonts"
+        ],
+        "project_development_period": {
+            "v1": "(10 Mars 2021) -> (13 Mars 2021)",
+            "v2": "(7 Nov 2021) -> (13 Nov 2021)",
+            "v3": "(28 Mar 2022)"
+        },
+        "project_development_duration": {
+            "v1": "4 days",
+            "v2": "5 days",
+            "v3": "1 Day"
+        },
+        "project_version": "V3.0"
+    },
+    "developer_info": {
+        "developer": "Swordax",
+        "developer_github": "https://github.com/SwordaxSy",
+        "developer_contacts": "https://linktr.ee/swordax"
+    },
+    "project_updates": {
+        "10 Mar, 2021": [
+            "Created the project",
+            "Finished the home page and designing it",
+            "Finished the programming of the questioning system and true/false answers",
+            "Worked on the addition game and almost finished it"
+        ],
+        "11 Mar, 2021": [
+            "Worked on the project (i dont remember what i did that day :/)"
+        ],
+        "12 Mar, 2021": [
+            "Worked on the subtraction game and finished it",
+            "Upgraded the naming system and added the sign up form layer before the home page",
+            "Developed the page title",
+            "Created the menu",
+            "Made the about dialog and finished it",
+            "Fixed the responsiveness of the answer buttons (not with the media queries)"
+        ],
+        "13 Mar, 2021": [
+            "Finished the multiplication game",
+            "Finished the division game",
+            "Finished the Menu sections (about - video - IME)",
+            "Added a back button, will make you exit the game you are in even if you are not done yet",
+            "Finished the responsive design of the website (not peerfect but acceptable)",
+            "Discovered a bug with the back button and fixed it",
+            "Project Completed",
+            "Changed the menu section 'Video' title to 'Math in Life'",
+            "Updated the test video to the actual video",
+            "Released V1.0"
+        ],
+        "7 Nov, 2021": [
+            "Project called to be presented again so need some updates :)",
+            "Organized the project folder strcutre and added some division folders such as css, js, and assets",
+            "Re-organized the head tag and added some new elements inside it",
+            "Created info.js and placed it inside the js folder and moved all the info stored in the css file to it",
+            "Added more organized info inside the info.js, such as the project_info and the developer_info",
+            "Added developer contacts inside the info.js inside the developer_info section",
+            "Included google fonts Quicksand font in the website and replaced it with the old comic sans",
+            "Disconnected the script.js file since it contains old formed bad quality code",
+            "Created main.js file which will contain the new code",
+            "Created questions.js to store all the questions to be used and itterated through later"
+        ],
+        "10 Nov, 2021": [
+            "Completed working on the questions.js file and finished it",
+            "Started working on the new user-interface design",
+            "Got a logo for the website and added it as a tab icon as well",
+            "Changed the name of the website/project from S-Math to Hypermath",
+            "Started working on desiging a totally new user-interface and website structure",
+            "Finished the new design of the login-page",
+            "Added animated transitioning design when starting the game",
+            "Linked to fontawesome library"
+        ],
+        "11 Nov, 2021": [
+            "Worked on the main game dashboard",
+            "Finished the game type selection buttons",
+            "Created a custom alert design and system and completed it",
+            "Created a new name displaying design and semi-completed it",
+            "Modified the layout of the login form and success indicators",
+            "Modified the layout and size of the game selection buttons",
+            "Added a renaming system",
+            "Created a responsive.css file, located it in the css folder, and linked it to the index.html file",
+            "Moved all the responsive media query css codes to the responsive.css file",
+            "Modified the general layout of the page and allowed y-axis scrolling",
+            "Created a custom randomly colored scrollbar"
+        ],
+        "12 Nov, 2021": [
+            "Completed the question UI",
+            "Completed the question selecting mechanism",
+            "Completed the question appending mechanism",
+            "Completed the question transitioning mechanism",
+            "Deleted the old HTML game code",
+            "Deleted the old CSS game styling code",
+            "Added rename with enter key feature"
+        ],
+        "13 Nov, 2021": [
+            "Created the UI design for the FRQ",
+            "Wrote code for assigning true/false identity on questions",
+            "Completed the mechanism of the quiz",
+            "Designed the result card / certificate and made it display dynamic info",
+            "Completed the result calculating mechanism and the code for displaying the result card",
+            "Wrote the code for clearing variables and settings of the quiz when exiting",
+            "Quiz mechanism completed",
+            "Coded the identical of the old functions for the menu dialogs",
+            "Maintained the menu section and did some small changes to the styling",
+            "Modified some of the questions and clearified some",
+            "Started working on the responsive design of the new UI",
+            "Finished the responsive design of the login page",
+            "Finished the responsive design of the whole website",
+            "Deleted unused assets",
+            "Added title comments to project code files",
+            "Created project_strcutre constant in info.js and described the project structure",
+            "Organized the main.js file a bit more",
+            "Fixed some layout/scrolling bugs and problems",
+            "Changed the way the menu goes in and out",
+            "Disabled user-select from various elements",
+            "S-Math (HYPERMATH) v2.0 is completed",
+            "New version published on netlify under hypermath.netlify.app",
+            "Released V2.0"
+        ],
+        "28 Mar, 2022": [
+            "Removed the menu button and the menu section from the application",
+            "Removed all the styling and the JS code related to the menu btn and the menu itself",
+            "Removed all real-names mentioned in the project",
+            "Removed all personal photos included in the project",
+            "Removed FB link from the info.js developer_info variable",
+            "Added developer discord and @ in the developer_info variable",
+            "Released V3.0"
+        ]
+    }
+}

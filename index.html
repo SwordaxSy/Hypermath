@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <!-- Browser Tab -->
+        <title>HYPERMATH</title>
+        <link rel="icon" href="assets/logo.svg" />
+        <!-- Meta Tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, user-scalable=no"
+        />
+        <meta name="title" content="Hypermath" />
+        <meta
+            name="keywords"
+            content="Hypermath, Math Game, Math Test, Mathmatics, Swordax"
+        />
+        <meta name="description" content="Hypermath mathmatics test game" />
+        <meta name="author" content="Swordax" />
+        <!-- External Libraries & Stylesheets Connection -->
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <!-- Fonts Stylesheets -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+            rel="stylesheet"
+        />
+        <!-- CSS Files -->
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+        <!-- Script Files -->
+        <script defer src="js/info.js"></script>
+        <script defer src="js/questions.js"></script>
+        <script defer src="js/main.js"></script>
+    </head>
+    <body>
+        <main class="main-content">
+            <!-- Custom Alert -->
+            <div class="custom-alert">
+                <i class="fas fa-times exit-alert" onclick="exitAlert()"></i>
+                <p class="alert-text">Hello world, this is a test brother</p>
+            </div>
+            <!-- Login Page -->
+            <section class="login-page">
+                <div class="logo-div">
+                    <img
+                        src="assets/logo.svg"
+                        alt="Website Logo"
+                        class="logo-img"
+                    />
+                    <h1 class="logo-text">
+                        <span>H</span>
+                        <span>Y</span>
+                        <span>P</span>
+                        <span>E</span>
+                        <span>R</span>
+                        <span>M</span>
+                        <span>A</span>
+                        <span>T</span>
+                        <span>H</span>
+                    </h1>
+                </div>
+                <div class="login-form">
+                    <h1>Play!</h1>
+                    <input
+                        class="name-input"
+                        type="text"
+                        maxlength="20"
+                        placeholder="Nickname"
+                    />
+                    <!-- <input type="button" class="name-submit" value="Go!" onclick="setName()"> -->
+                    <button type="button" class="name-submit" onclick="login()">
+                        GO <i class="fas fa-long-arrow-alt-right"></i>
+                    </button>
+                </div>
+                <div class="success-indicators">
+                    <span><i class="fas fa-chevron-right"></i></span>
+                    <span><i class="fas fa-chevron-right"></i></span>
+                    <span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </section>
+            <!-- Home Page - Game -->
+            <section class="home-page">
+                <header class="app-header">
+                    <!-- App Header Title -->
+                    <div class="app-header-logo">
+                        <img
+                            src="assets/logo.svg"
+                            alt="Website Logo"
+                            class="logo"
+                        />
+                        <h1>HYPERMATH</h1>
+                    </div>
+                    <!-- Name Display -->
+                    <div class="naming">
+                        <div class="name-display">
+                            <p></p>
+                            <i
+                                class="fas fa-chevron-left rename-switch"
+                                onclick="renameSwitch_()"
+                                title="Rename"
+                            ></i>
+                        </div>
+                        <div class="rename">
+                            <input
+                                type="text"
+                                placeholder="New nickname"
+                                class="rename-input"
+                            />
+                            <input
+                                type="button"
+                                value="Rename"
+                                class="rename-button"
+                                onclick="rename()"
+                            />
+                        </div>
+                    </div>
+                </header>
+                <div class="app-body">
+                    <!-- Small Devices Logo -->
+                    <div class="small-logo">
+                        <img
+                            src="assets/logo.svg"
+                            alt="Website Logo"
+                            class="logo"
+                        />
+                        <h1>HYPERMATH</h1>
+                    </div>
+                    <!-- Games Menu -->
+                    <div class="games">
+                        <div class="addition-btn">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <div class="subtraction-btn">
+                            <i class="fas fa-minus"></i>
+                        </div>
+                        <div class="multiplication-btn">
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <div class="division-btn">
+                            <i class="fas fa-divide"></i>
+                        </div>
+                    </div>
+                    <!-- Game Page -->
+                    <div class="game-board">
+                        <header class="game-header">
+                            <div>
+                                <p>
+                                    <i class="fas fa-plus quiz-icon"></i>
+                                    <span class="quiz-name"
+                                        ><!-- Inserted --></span
+                                    >
+                                    <span class="question-num">
+                                        <span class="question-number"></span>
+                                        /
+                                        <span class="total-questions"></span>
+                                    </span>
+                                </p>
+                            </div>
+                            <div>
+                                <button
+                                    class="exit-game-btn"
+                                    onclick="exitQuiz()"
+                                >
+                                    <span>Exit</span>
+                                    <i class="fas fa-sign-out-alt"></i>
+                                </button>
+                            </div>
+                        </header>
+                        <div class="game-body">
+                            <p class="game-question">
+                                <!-- Inserted -->
+                            </p>
+                            <div class="game-answers">
+                                <div class="mcq-format">
+                                    <button class="mcq-option">
+                                        <div class="option-letter">A</div>
+                                        <span class="option-content"
+                                            ><!-- Inserted --></span
+                                        >
+                                    </button>
+                                    <button class="mcq-option">
+                                        <div class="option-letter">B</div>
+                                        <span class="option-content"
+                                            ><!-- Inserted --></span
+                                        >
+                                    </button>
+                                    <button class="mcq-option">
+                                        <div class="option-letter">C</div>
+                                        <span class="option-content"
+                                            ><!-- Inserted --></span
+                                        >
+                                    </button>
+                                    <button class="mcq-option">
+                                        <div class="option-letter">D</div>
+                                        <span class="option-content"
+                                            ><!-- Inserted --></span
+                                        >
+                                    </button>
+                                </div>
+                                <div class="frq-format">
+                                    <input
+                                        type="text"
+                                        placeholder="Answer"
+                                        class="frq-input"
+                                    />
+                                    <button class="frq-submit">Submit</button>
+                                </div>
+                            </div>
+                            <div class="result-card">
+                                <h1>
+                                    Certificate <i class="fas fa-medal"></i>
+                                </h1>
+                                <p>
+                                    Player <span class="cert-player-name"></span
+                                    ><br />
+                                    Hypermath would like to congratulate you for
+                                    completing the
+                                    <span class="cert-quiz-name"></span
+                                    ><br /><br />
+                                    Your score is
+                                    <span class="cert-score"></span>%
+                                </p>
+                                <div class="cert-deco cert-deco-one"></div>
+                                <div class="cert-deco cert-deco-two"></div>
+                                <div class="cert-deco cert-deco-three"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Darken -->
+            <div class="darken"></div>
+
+            <!-- Credits -->
+            <div class="credits">
+                <p>
+                    Built by
+                    <a target="_blank" href="https://linktr.ee/swordax"
+                        >Swordax</a
+                    >
+                </p>
+            </div>
+        </main>
+        <!-- Scrollbar Thumb Color -->
+        <style class="scrollbar-color"></style>
+        <style class="quiz-theme"></style>
+    </body>
+</html>

@@ -1,0 +1,99 @@
+/* CSS Media Queries for Responsive Design */
+
+@media (max-width: 800px) {
+    .result-card {
+        width: calc(400px - 40px);
+    }
+    .result-card p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .app-header-logo {
+        display: none;
+    }
+    .small-logo {
+        display: flex;
+    }
+    .naming {
+        align-items: flex-start;
+        margin-left: 10px;
+    }
+    .naming .name-display p {
+        font-size: 18px;
+    }
+    .game-board {
+        width: calc(100vw - 20px);
+        height: calc(100vh - 20px);
+        border-radius: 0;
+        padding: 10px;
+        margin-top: -5vh;
+    }
+    .exit-game-btn span {
+        display: none;
+    }
+    .game-header .quiz-icon {
+        margin-right: 5px;
+    }
+    .game-header p {
+        font-size: 24px;
+    }
+    .game-header .question-num {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    .exit-game-btn {
+        font-size: 16px;
+        padding: 8px 10px;
+    }
+    .frq-input {
+        width: 220px;
+    }
+}
+
+@media (max-width: 460px) {
+    .result-card {
+        width: calc(100% - 60px);
+    }
+}
+
+@media (max-width: 420px) {
+    .login-page .logo-text {
+        font-size: 40px;
+    }
+    .about-text,
+    .IME p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 380px) {
+    .game-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .exit-game-btn {
+        margin-top: 10px;
+    }
+    .game-header {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .game-answers {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .login-page .logo-text {
+        font-size: 34px;
+    }
+}
+
+/* Height Settings */
+@media (max-height: 580px) {
+    .result-card {
+        margin-top: 0;
+    }
+}
