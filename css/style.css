@@ -226,7 +226,7 @@ i,
 
 /* Game Selection Div */
 .games {
-    margin-top: 30px;
+    padding: 30px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -502,6 +502,10 @@ i,
 }
 
 /* Credits */
+.main-content {
+    position: relative;
+}
+
 .credits {
     position: absolute;
     bottom: 0;
