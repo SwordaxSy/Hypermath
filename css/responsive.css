@@ -58,13 +58,9 @@
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 480px) {
     .login-page .logo-text {
         font-size: 40px;
-    }
-    .about-text,
-    .IME p {
-        font-size: 18px;
     }
 }
 
